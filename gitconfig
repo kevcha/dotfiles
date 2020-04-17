@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-  editor = 'vim'
+	editor = subl -n -w  >/dev/null 2>&1
   excludesfile = /Users/kevcha/.gitignore
 
 [alias]
@@ -50,5 +50,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-  email = kevin.chavanne@gmail.com
-  name = Kevin Chavanne
+	email = kevin.chavanne@gmail.com
+	name = Kevin Chavanne
