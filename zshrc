@@ -66,7 +66,25 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 export BUNDLER_EDITOR=code
-export EDITOR=code
+export EDITOR="code --wait"
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# path
+alias web="cd ~/web/"
+
+# git
+alias ga="git add"
+alias gb="git branch -v"
+alias gc="git commit"
+alias gco="git checkout"
+alias gnb="git checkout -b"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gl="git lg"
+alias gpl="git pull"
+alias gps="git push"
+alias gs="git status"
+alias gt="git tag -n"
+alias gu="git uncommit"
